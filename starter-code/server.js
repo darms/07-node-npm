@@ -6,6 +6,8 @@
 // Remember to install express, and be sure that it's been added to your package.json as a dependency
 const express = require('express');
 
+const app = express();
+
 const PORT = process.env.PORT || 3000;
 
 // TODO: DONE Include all of the static resources as an argument to app.use()
